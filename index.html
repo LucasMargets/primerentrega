@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <form id="miFormulario" name=""> 
+    <label>Número 1</label>
+    <input type="number" name="" id="valor1" placeholder="Escribe un numero">
+    <button onclick="limpiar();">Limpiar campos</button>
+
+<br>
+<br>
+    
+    <label>Número 2</label>
+    <input type="number" name="" id="valor2" placeholder="Escribe un numero">
+
+<br>
+<br>
+
+    <button type="buttom" onclick="sumar();">Sumar</button>
+    <button type="buttom" onclick="restar();">Restar</button>
+    <button type="buttom" onclick="multiplicar();">Multiplicar</button>
+    <button type="buttom" onclick="dividir();">Dividir</button>
+
+    <p>El resultado es: <span id="el-resultado"></span></p>
+
+
+    </form>
+
+    <script src="./funciones.js"></script>
+</body>
+</html>
